@@ -20,6 +20,7 @@ header nav li a{
   color: rgb(221, 221, 221);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  width: 400px;
 }
 
 h1 {
@@ -41,12 +42,6 @@ main {
   padding: 5px;
 }
 
-/* i don't think I need this?? */
-main a {
-  color: rgb(221, 221, 221);
-}
-
-
 /* shorten horizontal line */
 hr {
   width: 80%;
@@ -59,6 +54,9 @@ main article ul {
   color: rgb(221, 221, 221);
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* edit ol li, change to roman numerals */
@@ -67,7 +65,7 @@ main article ul ol {
   list-style-position: outside;
 }
 
-main article a:link{
+main article a {
   color: rgb(221, 221, 221)
 }
 
