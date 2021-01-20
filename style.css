@@ -64,10 +64,11 @@ main article ol {
   margin-right: auto;
 }
 
-/* edit ol li, change to roman numerals 
+/* edit ol li, change to square */
 main article ol ul {
   list-style-type: square;
-} */
+  list-style-position: outside;
+}
 
 main article a {
   color: rgb(221, 221, 221)
