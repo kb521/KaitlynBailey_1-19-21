@@ -55,7 +55,7 @@ hr {
 /*edit ul list headers for software, remove bullet 
 
 left move entire list to center with this format */
-main article ol {
+.list-format {
   color: rgb(221, 221, 221);
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
@@ -66,7 +66,7 @@ main article ol {
 
 /* edit ol li, change to roman numerals */
 main article ol ul {
-  list-style-type: sqaure;
+  list-style-type: square;
   list-style-position: outside;
 }
 
